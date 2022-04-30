@@ -31,6 +31,11 @@
     docker-compose exec web python manage.py loaddata fixtures.json
     ```
 
+5. Запуск Django-RQ:
+    ```
+    docker-compose exec web python manage.py rqworker default
+    ```
+
 ### API
 
 Описание доступных методов находится в файле api.yml (swagger-спецификация). Можно отрендерить через [онлайн редактор](https://editor.swagger.io/) или через соответствующий плагин для PyCharm или VSCode
