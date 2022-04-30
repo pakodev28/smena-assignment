@@ -13,7 +13,7 @@
     ```
 2. для запуска контейнеров:
     ```
-    docker-compose up -d
+    docker-compose up -d --build
     ```
 3. Далее выполните следующие команды:
     ```
@@ -34,6 +34,10 @@
 5. Запуск Django-RQ:
     ```
     docker-compose exec web python manage.py rqworker default
+    ```
+6. Остановите контейнеры:
+    ```
+    docker-compose down -v
     ```
 
 ### API
