@@ -1,5 +1,7 @@
 # smena-assignment
 
+### [Задание по ссылке](https://github.com/pakodev28/assignments/blob/master/backend/README.md)
+
 ## Как развернуть проект из файла docker-compose(используется gunicorn и postgresql):
 1. Склонировать проект, настроить .env файл:
     ```
